@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2> Welcome to Jamaler Ma Pitha Ghor</h2>
+    <form>
+
+        <label for= "name"> Your Name 
+            <input id = 'name' type = 'text' placeholder="Your Name"> 
+        </label>
+
+        <label for= "email"> Your Email
+            <input id = 'email' type = 'email' placeholder="Your Email">     
+        </label>
+        
+        <label for= "phone"> Your Phone
+            <input id = 'phone' type = 'number' placeholder="Your Phone Number">     
+        </label>
+
+
+        <fieldset>
+            <legend>Pick One Pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="Pitha" id="chitoy">
+                Chitoy 
+            </label>
+            <label for="Vapa">
+                <input type="radio" name="Pitha" id="Vapa">
+                Vapa 
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="Pitha" id="Coconut">
+                Coconut 
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Select One or more Vhorta </legend>
+
+            <label for="sorisha">
+                <input type="checkbox" name="vhorta" id="sorisha"> 
+                Shorisha
+            </label>
+
+            <label for="shutki">
+                <input type="checkbox" name="vhorta" id="shutki"> 
+                Shutki
+            </label>
+    
+            <label for="dal">
+                <input type="checkbox" name="vhorta" id="dal"> 
+                Dal
+            </label>
+         
+        </fieldset>
+
+        <fieldset>
+            <legend> Special Instruction </legend>
+            <textarea name="" id="" cols="67" rows="3"></textarea>
+        </fieldset>
+        <input type= 'reset' value ='Reset'> 
+        <input type="submit" value="Submit"> 
+    </form>
+</body>
+</html>
